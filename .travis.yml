@@ -18,6 +18,9 @@
 #
 
 language: c
+arch:
+  - amd64
+  - ppc64le
 cache: ccache
 jobs:
   fast_finish: true
